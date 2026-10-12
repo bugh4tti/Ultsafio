@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "ultsafio",
+  "version": "${version}",
+  "name": "Ultsafio",
+  "description": "Ruleta de desafíos y pantalla de instrucciones al estilo Eufonia.",
+  "authors": ["Bughatti"],
+  "license": "All-Rights-Reserved",
+  "icon": "assets/ultsafio/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.ultsafio.UltsafioMod"],
+    "client": ["com.ultsafio.client.UltsafioClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.2",
+    "minecraft": "~26.1.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
